@@ -16,9 +16,15 @@ def main_planner(guests: int) -> None:
     )
 
 
+# print strings in each line and concatenating the calls to each function as strings
+
+
 def tea_bags(people: int) -> int:
     """Tea Bags Needed"""
     return people * 2
+
+
+# people multiplied by 2 calculates number of tea bags
 
 
 def treats(people: int) -> int:
@@ -35,7 +41,7 @@ def cost(tea_count: int, treat_count: int) -> float:
 
 
 # overcomplicated to call to results of past functions
-
+# simple as setting arguments
 
 if __name__ == "__main__":
     main_planner(guests=int(input("How many guests are attending your tea party? ")))
